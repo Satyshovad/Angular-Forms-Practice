@@ -21,6 +21,6 @@ export class Task1ModelDrivenFormsComponent implements OnInit {
 
   // tslint:disable-next-line:typedef
   onSubmit() {
-    console.log('It\'s work');
+    console.log(this.SignupForm.value);
   }
 }
