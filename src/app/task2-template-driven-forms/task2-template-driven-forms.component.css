@@ -1,0 +1,55 @@
+.form1{
+  width: 500px;
+  border-style: solid;
+  border-color: dodgerblue;
+  padding-bottom: 20px;
+  padding-left: 15px;
+}
+
+.form2-content{
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-top: 20px;
+  border-style: solid;
+  border-color: dodgerblue;
+  padding-bottom: 5px;
+  position: relative;
+}
+
+.form2-row{
+  padding-top: 20px;
+  border-style: solid;
+  border-color: dodgerblue;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+.form3{
+  margin-top: 10px;
+  border-style: solid;
+  border-color: dodgerblue;
+  padding-left: 10px;
+  padding-bottom: 15px;
+}
+
+.form3-1{
+  border-style: solid;
+  border-color: dodgerblue;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.form4{
+  margin-top: 10px;
+  border-style: solid;
+  border-color: dodgerblue;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+.form4-1{
+  padding-top: 10px;
+  border-style: solid;
+  border-color: dodgerblue;
+  padding-left: 15px;
+}

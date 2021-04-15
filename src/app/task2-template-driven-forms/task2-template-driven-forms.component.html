@@ -1,0 +1,43 @@
+<h1>Task2 Template-driven Forms!</h1>
+
+<form class="form1" #form1="ngForm">
+  <p>form-1 validity is: {{form1.valid}}</p>
+
+  <form class="form2-content" #form2="ngForm">
+    <label for="form2" >form-2 validity is: {{form2.valid}} </label>
+    <p><input style="background-color: #F0E68C" type="text" id="form2" name="form-2" required="required" ngModel></p>
+
+    <form class="form2-content" #form2_1="ngForm">
+      <label for="form2.1">form-2.1 validity is: {{form2_1.valid}} </label>
+      <p><input style="background-color: #F0E68C" type="text" id="form2.1" name="form-2.1" required="required" ngModel></p>
+    </form>
+
+    <form class="form2-content" #form2_2="ngForm">
+      <label for="form-2.2">form-2.2 validity is: {{form2_2.valid}} </label>
+      <p><input style="background-color: #F0E68C" type="text" id="form-2.2" name="form-2.2" required="required" ngModel></p>
+    </form>
+    <button style="background-color: blue; color: #FFFFFF; margin-top: 10px; margin-left: 10px"><b>Toggle Reactive form</b></button>
+
+
+    <form class="form3" #form3="ngForm">
+      <h4>Reactive form</h4>
+      <label style="padding-left: 10px" for="form-3">form-3 validity is: {{form3.valid}} </label>
+      <p><input type="text" id="form-3" name="form-3" required="required" ngModel></p>
+      <form class="form3-1" #form3_1="ngForm">
+        <label for="form-3.1">form-3.1 validity is: {{form3_1.valid}} </label>
+        <p><input style="background-color: #F0E68C" type="text" id="form-3.1" name="form-3.1" required="required" ngModel></p>
+      </form>
+    </form>
+
+    <form class="form4" #form4="ngForm">
+      <h4 style="color: blue"><b>Isolated form</b></h4>
+      <label for="form-4">form-4 validity is: {{form4.valid}} </label>
+      <p><input style="background-color: #F0E68C" type="text" id="form-4" name="form-4" required="required" ngModel></p>
+      <form class="form4-1" #form4_1="ngForm">
+        <label for="form-4.1">form-4.1 validity is: {{form4_1.valid}} </label>
+        <p><input style="background-color: #F0E68C" type="text" id="form-4.1" name="form-4.1" required="required" ngModel></p>
+      </form>
+    </form>
+  </form>
+</form>
+

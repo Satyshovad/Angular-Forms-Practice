@@ -1,0 +1,38 @@
+<h1>Task1 - Model-driven Forms!</h1>
+<div class="form">
+<form [formGroup]="SignupForm" (ngSubmit)="onSubmit()">
+  <p class="header" style="color:#FFFFFF">Sign up Form </p>
+
+  <div class="content">
+    <div class="row">
+      <p>
+        <label class="main" for="firstname" >First Name* </label>
+        <input style="width: 300px; height: 30px" type="text" id="firstname" name="firstname" formControlName="firstname">
+      </p>
+    </div>
+
+    <div class="row">
+      <p>
+        <label class="main" for="lastname">Last Name* </label>
+        <input style="width: 300px; height: 30px" type="text" id="lastname" name="lastname" formControlName="lastname">
+      </p>
+    </div>
+
+    <div class="row">
+      <p>
+        <label class="main" for="email" style="margin-left: 32px">Email* </label>
+        <input style="width: 300px; height: 30px" type="text" id="email" name="email" formControlName="email">
+      </p>
+    </div>
+
+    <div class="row">
+      <p>
+        <label class="main" for="password" style="margin-left: 8px">Password* </label>
+        <input style="width: 300px; height: 30px" type="text" id="password" name="password" formControlName="password">
+      </p>
+    </div>
+
+    <button class="submit-button" type="submit">Submit</button>
+  </div>
+</form>
+</div>
